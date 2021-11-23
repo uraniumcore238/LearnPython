@@ -8,11 +8,11 @@ print(my_list[1:4])
 my_list.remove("Python")
 print(my_list)
 
-dict = {"city": "Москва", "temperature": "20"}
-print(dict.get("city"))
-dict["temperature"] = int(dict["temperature"])-5
-print(dict)
-print(dict.get("country", "Россия"))
-dict["date"] = "27.05.2019"
-print(len(dict))
+my_dict = {"city": "Москва", "temperature": "20"}
+print(my_dict.get("city"))
+my_dict["temperature"] = int(my_dict["temperature"])-5
+print(my_dict)
+print(my_dict.get("country", "Россия"))
+my_dict["date"] = "27.05.2019"
+print(len(my_dict))
 
