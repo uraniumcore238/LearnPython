@@ -3,7 +3,7 @@ def get_summ(one, two, delimiter='&'):
     two = str(two)
     return f"{one} {delimiter} {two}"
 
-a = get_summ("Learn", "python")
-b = a.upper()
-print(a)
-print(b)
+merged_string = get_summ("Learn", "python")
+upper_cased_string = merged_string.upper()
+print(merged_string)
+print(upper_cased_string)
